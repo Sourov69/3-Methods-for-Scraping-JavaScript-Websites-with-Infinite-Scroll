@@ -21,6 +21,12 @@ DOWNLOAD_HANDLERS = {
 # settings.py
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 
+PLAYWRIGHT_BROWSER_TYPE = "chromium"
+
+# PLAYWRIGHT_LAUNCH_OPTIONS = {
+#     "headless": False,
+#     "slow_mo": 500
+# }
 ADDONS = {}
 
 
